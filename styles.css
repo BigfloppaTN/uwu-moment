@@ -1,0 +1,66 @@
+/*  */
+/* selector por clase */
+.cabecera{
+  background-color: lavender;
+}
+.navPrincipal{
+  background-color: olive;
+
+}
+.principal{
+  background-color: pink;
+}
+.galeria{
+  background-color: lavender;
+}
+.noticias{
+  background-color: lavender;
+}
+.nota{
+  background-color: olive;
+}
+.piePagina{
+  background-color: pink;
+}
+/* selector de id*/
+#tituloPrincipal{
+  text-align: center;
+}
+/* selector combinador de descendientes*/
+nav li{
+  display: inline-block;
+}
+/* multiples selectores */
+h2,h3,h4,h5{
+  color: purple;
+}
+
+/* combinador de hijo */
+ul>li{
+  list-style: none;
+}
+/* selector usando clases y etiquetas */
+.galeria img{
+  width: 200px;
+  height: auto;
+}
+.navPrincipal li{
+  background-color: red;
+}
+/* ppseudoclases */
+.navPrincipal li:hover{
+  background-color: pink;
+  transition-delay: 0.3s;
+  transition-timing-function: ease-in;
+  transition-property: background-color;
+}
+/* pseudo elementos */
+.exciting-text: : after {
+  content: " <- EXCITING";
+  color: green;
+}
+
+.boring-text: :after {
+  content: " <- BORING";
+  color: red;
+}
