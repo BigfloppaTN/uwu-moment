@@ -3,6 +3,10 @@
 .cabecera{
   background-color: lavender;
 }
+.cabecera img{
+  width: 100px;
+  border-radius: 100%;
+}
 .navPrincipal{
   background-color: olive;
 
@@ -24,7 +28,13 @@
 }
 /* selector de id*/
 #tituloPrincipal{
+  display: block;
+  width: auto;
   text-align: center;
+  padding: 10px;
+  border: 3px  solid black;
+  border-radius: 10px;
+  margin: 10px;
 }
 /* selector combinador de descendientes*/
 nav li{
@@ -63,4 +73,14 @@ ul>li{
 .boring-text: :after {
   content: " <- BORING";
   color: red;
+}
+
+hr{
+  width: 10%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 7px dotted red;
+}
+.nota img{
+  width: 200px;
 }
