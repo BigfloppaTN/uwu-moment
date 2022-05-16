@@ -2,10 +2,32 @@
 /* selector por clase */
 .cabecera{
   background-color: lavender;
+  height: 200px;
 }
 .cabecera img{
-  width: 100px;
+  display: inline-block;
+  width: 250px;
   border-radius: 100%;
+  position: relative;
+  right: 600px;
+  top: 25px;
+
+}
+.cabecera h3{
+  display: inline-block;
+  position: relative;
+  left: 55px;
+  bottom: 35px;
+}
+
+/* selector de id*/
+#tituloPrincipal{
+  display: inline-block;
+  width: auto;
+  position:relative;
+  left: 300px;
+  bottom: 70px;
+
 }
 .navPrincipal{
   background-color: olive;
@@ -19,23 +41,54 @@
 }
 .noticias{
   background-color: lavender;
+
+
 }
-.nota{
+.nota1{
   background-color: olive;
+  display: inline-block;
+  position: relative;
+
+  width: 48%;
+
+
 }
+.nota1 img{
+  display: inline-block;
+  width: 200px;
+  position: relative;
+  left: 35%;
+  border-radius: 100%;
+
+}
+.nota1 h4{
+  text-align: center;
+}
+
+.nota2{
+  background-color: olive;
+  display: inline-block;
+  position: relative;
+
+  width: 48%;
+
+
+}
+.nota2 img{
+  width: 200px;
+  position: relative;
+  left: 35%;
+  border-radius: 100%;
+
+}
+.nota2 h4{
+  text-align: center;
+}
+
 .piePagina{
   background-color: pink;
 }
-/* selector de id*/
-#tituloPrincipal{
-  display: block;
-  width: auto;
-  text-align: center;
-  padding: 10px;
-  border: 3px  solid black;
-  border-radius: 10px;
-  margin: 10px;
-}
+
 /* selector combinador de descendientes*/
 nav li{
   display: inline-block;
@@ -80,7 +133,4 @@ hr{
   margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: 7px dotted red;
-}
-.nota img{
-  width: 200px;
 }
