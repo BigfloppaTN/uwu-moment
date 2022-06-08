@@ -1,0 +1,34 @@
+.cabecera h1{
+  text-align: center;
+}
+.cabecera img{
+
+}
+
+.introduccion{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.introduccion img{
+  width: 800px;
+}
+
+.nota1,.nota2{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 40%;
+}
+
+footer{
+  background-color: rgb(125, 30, 106);
+}
+footer h3{
+
+}
+footer img{
+  width: 30px;
+}
