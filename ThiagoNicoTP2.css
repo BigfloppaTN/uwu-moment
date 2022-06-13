@@ -1,8 +1,24 @@
+.cabecera{
+  background-color: lavender;
+  height: 300px;
+}
+
 .cabecera h1{
   text-align: center;
+  height: 80px;
+}
+.cabecera h4{
+  position: relative;
+  right: 60px;
+  top: 20px;
+
 }
 .cabecera img{
-
+  position: fixed;
+  left: 5px;
+  top: 25px;
+  border-radius: 100%;
+  width: 90px;
 }
 
 .introduccion{
@@ -15,14 +31,34 @@
 .introduccion img{
   width: 800px;
 }
+.Actividades{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:center;
+  align-items:center;
+  gap: 20px;
+  align-items: flex-start;
+}
+.Actividades h3{
+  text-align: center;
+  flex-basis: 100%;
 
+}
+.Actividades img{
+  width: 300px;
+  height: 200px;
+}
 .nota1,.nota2{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 40%;
+  width: 35%;
 }
+.nota1 h4,.nota2 h4{
+  text-align: center;
+  flex-basis: 100%;
 
+}
 footer{
   background-color: rgb(125, 30, 106);
 }
@@ -31,4 +67,7 @@ footer h3{
 }
 footer img{
   width: 30px;
+}
+.pie,.pie2{
+  color: white;
 }
