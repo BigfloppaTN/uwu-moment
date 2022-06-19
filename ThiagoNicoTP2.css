@@ -1,11 +1,16 @@
+body{
+  font-family:  sans-serif;
+
+}
 .cabecera{
-  background-color: lavender;
+  background-color: rgb(238, 238, 238);
   height: 300px;
 }
-
 .cabecera h1{
   text-align: center;
+  font-size: 50px;
   height: 80px;
+  color: rgb(118, 74, 241);
 }
 .cabecera h4{
   position: relative;
@@ -20,17 +25,34 @@
   border-radius: 100%;
   width: 90px;
 }
+.cabecera nav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cabecera a{
+  color: blueviolet;
+  text-decoration: none;
+  font-weight: bold;
 
+}
 .introduccion{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
+  align-items: flex-start;
+  background-color: rgb(238, 238, 238);
+}
+.introduccion h3{
+  font-size: 29px;
+  color: rgb(241, 84, 18);
   gap: 30px;
 }
 .introduccion img{
   width: 800px;
 }
+
 .Actividades{
   display: flex;
   flex-flow: row wrap;
@@ -38,11 +60,13 @@
   align-items:center;
   gap: 20px;
   align-items: flex-start;
+  background-color: rgb(238, 238, 238);
+  height: 600px;
 }
 .Actividades h3{
   text-align: center;
   flex-basis: 100%;
-
+  color: rgb(241, 84, 18);
 }
 .Actividades img{
   width: 300px;
@@ -57,10 +81,12 @@
 .nota1 h4,.nota2 h4{
   text-align: center;
   flex-basis: 100%;
-
+  color: rgb(241, 84, 18);
 }
+
 footer{
   background-color: rgb(125, 30, 106);
+  height: 300px;
 }
 footer h3{
 
@@ -70,4 +96,9 @@ footer img{
 }
 .pie,.pie2{
   color: white;
+}
+
+hr{
+  width: 100%;
+  margin-top: 45px;
 }
