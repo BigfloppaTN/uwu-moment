@@ -29,6 +29,15 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+.barra li{
+  display: inline-block;
+  justify-content: space-between;
+}
+.barra a:hover{
+  color: rgb(202, 130, 255);
+
 }
 .cabecera a{
   color: blueviolet;
@@ -83,7 +92,11 @@ body{
   flex-basis: 100%;
   color: rgb(241, 84, 18);
 }
-
+.PiePagina{
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-around;
+}
 footer{
   background-color: rgb(125, 30, 106);
   height: 300px;
@@ -94,6 +107,7 @@ footer h3{
 footer img{
   width: 30px;
 }
+
 .pie,.pie2{
   color: white;
 }
