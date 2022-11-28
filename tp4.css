@@ -1,5 +1,8 @@
-body {
-    background-color: rgb(43, 52, 71);
+.carousel{
+    height: 425px;
+}
+body{
+    background-color: rgb(14, 80, 30);
 }
 nav{
     gap: 400px;
@@ -9,7 +12,7 @@ nav a {
 
 }
 .imagenescar{
-    height: 400px;
+    height: 450px;
 }
 header{
     height: 450px;
@@ -17,7 +20,7 @@ header{
 
 
 .container a{
-    font-family: sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;
     color: aliceblue;
 
 }
@@ -30,5 +33,9 @@ h4{
     color: aliceblue;
 }
 p{
+    font-family: 'Barlow Condensed', sans-serif;
     color: aliceblue;
+}
+footer img{
+    width: 40px;
 }
